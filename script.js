@@ -351,7 +351,7 @@ document.getElementById('custom-btn').addEventListener('click', () => {
     if (customArray.length > 0) {
         renderBars(customArray);
     } else {
-        document.getElementById('custom-input').value = ''
         alert("Please enter a valid array.");
     }
+    document.getElementById('custom-input').value = ''
 });
